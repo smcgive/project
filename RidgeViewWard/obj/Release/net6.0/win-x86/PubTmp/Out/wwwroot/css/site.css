@@ -1,0 +1,248 @@
+/* Global Styles */
+body {
+  font-size: 1.3rem;
+}
+
+/* Main Section */
+.main {
+  margin-top: 3.125rem !important;
+}
+
+/* Meeting Section */
+.meeting {
+  margin-top: 1.2rem !important;
+  margin-bottom: 1.25rem !important;
+}
+
+/* Meeting Link */
+#meeting-link {
+  font-size: 1.35rem;
+  display: block;
+  margin-bottom: 0.625rem;
+}
+
+/* Section Heading */
+.section-heading {
+  margin: 0 auto;
+  margin-top: 1.875rem;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* Line Break */
+.line-break {
+  margin-top: 1.875rem;
+}
+
+/* Go-to-Top Link */
+.go-to-top {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+/* Blue Link */
+.blue-link,
+.blue-link:visited {
+  color: navy;
+}
+
+/* Item */
+.item {
+  font-size: 1.5rem;
+  font-weight: 550;
+  line-height: 200%;
+}
+
+/* Merged Item */
+.merged-item {
+  font-style: italic;
+  font-size: 1.85rem;
+  margin: 0 auto;
+  margin-top: 0.625rem;
+  margin-bottom: 0.625rem;
+}
+
+/* Image Center */
+.imgcenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Second Hour Meeting */
+.second-hour-meeting {
+  font-size: 1.5rem;
+  margin-top: 0.625rem;
+  margin-bottom: 0.625rem;
+}
+
+/* Room Assignment */
+.room-assignment {
+  font-size: 1.25rem;
+  margin-top: 0.625rem;
+  margin-bottom: 0.625rem;
+}
+
+/* Value */
+.value {
+  font-size: 1.5rem;
+  text-align: right;
+  line-height: 200%;
+}
+
+/* Primary Category */
+.primary-category {
+  font-weight: 700;
+  margin-top: 1.25rem;
+}
+
+/* Classroom */
+.classroom {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+/* Teacher */
+.teacher {
+  font-size: 1.3rem;
+}
+
+/* Student */
+.student {
+  font-size: 1.3rem;
+  margin-left: 1.25rem;
+  width: 15rem;
+}
+
+/* Background Colors */
+.bg-light-gray {
+  background-color: #f8f3e5;
+}
+
+.bg-light-blue {
+  background-color: #e5e5f8;
+}
+
+.bg-light-green {
+  background-color: #f2f8e5;
+}
+
+/* Announcement */
+.announcement {
+  font-size: 1.125rem;
+  margin: 1.125rem 0;
+}
+
+.announcement img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Announcement Heading */
+.announcement-heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  background-color: #d6dbff4b;
+  text-align: center;
+}
+
+/* Announcement Heading Brown */
+.announcement-heading-brown {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #8f3806;
+}
+
+/* Table Data and Bullet Points */
+td,
+.bullet-point {
+  font-size: 1.2rem;
+  padding: 5px;
+}
+
+/* Jumbotron */
+.jumbotron {
+  padding: 2rem !important;
+}
+
+/* Responsive Design for Smaller Screens */
+@media screen and (max-width: 320px) {
+  body,
+  .item,
+  .value,
+  .bullet-point {
+    font-size: 0.8rem;
+    padding: 5px;
+  }
+
+  .merged-item {
+    font-size: 1.3rem;
+  }
+
+  .section-heading {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    padding: 5px;
+  }
+
+  .teacher {
+    font-size: 1rem;
+  }
+
+  .student {
+    font-size: 0.8rem;
+    margin-left: 0.9rem;
+    width: 8rem;
+  }
+
+  .announcement-heading {
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 1204px) {
+  body,
+  .item,
+  td,
+  .value,
+  .bullet-point {
+    font-size: 0.97rem;
+    padding: 5px;
+  }
+
+  #meeting-link {
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 0.4rem;
+  }
+
+  .merged-item {
+    font-size: 1.5rem;
+  }
+
+  .section-heading {
+    margin-top: 1rem;
+    font-size: 1.6rem;
+    padding: 5px;
+  }
+
+  .teacher {
+    font-size: 1.1rem;
+  }
+
+  .student {
+    font-size: 1rem;
+    margin-left: 1rem;
+    width: 10rem;
+  }
+
+  .announcement-heading {
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding: 5px;
+  }
+}

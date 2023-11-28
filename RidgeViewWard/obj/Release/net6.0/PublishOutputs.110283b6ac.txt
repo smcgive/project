@@ -1,0 +1,7 @@
+C:\Users\sgmcg\source\repos\RidgeViewWard\RidgeViewWard\obj\Release\net6.0\PubTmp\Out\RidgeViewWard.exe
+C:\Users\sgmcg\source\repos\RidgeViewWard\RidgeViewWard\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\sgmcg\source\repos\RidgeViewWard\RidgeViewWard\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\sgmcg\source\repos\RidgeViewWard\RidgeViewWard\obj\Release\net6.0\PubTmp\Out\RidgeViewWard.dll
+C:\Users\sgmcg\source\repos\RidgeViewWard\RidgeViewWard\obj\Release\net6.0\PubTmp\Out\RidgeViewWard.deps.json
+C:\Users\sgmcg\source\repos\RidgeViewWard\RidgeViewWard\obj\Release\net6.0\PubTmp\Out\RidgeViewWard.runtimeconfig.json
+C:\Users\sgmcg\source\repos\RidgeViewWard\RidgeViewWard\obj\Release\net6.0\PubTmp\Out\RidgeViewWard.pdb

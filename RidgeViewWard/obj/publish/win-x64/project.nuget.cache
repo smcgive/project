@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "H3WX9GEUMhUFi8cS/0j+E9vOYOItiuiGkFuQC4NHaRQHfc4wriCE62e5dXjn9EhZ8o5YBzYdDwsmPC0x/ZdP0Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sgmcg\\source\\repos\\RidgeViewWard\\RidgeViewWard\\RidgeViewWard.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sgmcg\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.20\\microsoft.netcore.app.runtime.win-x64.6.0.20.nupkg.sha512",
+    "C:\\Users\\sgmcg\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.20\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.20.nupkg.sha512",
+    "C:\\Users\\sgmcg\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.20\\microsoft.aspnetcore.app.runtime.win-x64.6.0.20.nupkg.sha512"
+  ],
+  "logs": []
+}

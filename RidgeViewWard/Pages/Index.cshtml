@@ -1,0 +1,503 @@
+﻿@page
+@model IndexModel
+<!-- @{
+    ViewData["Title"] = "Ridge View Ward";
+} -->
+
+<!-- <div class="text-center">
+    <h1 class="display-4">Ridge View Ward</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div> -->
+
+<!DOCTYPE html>
+<html lang="en">  
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Ridge View Ward</title>
+<link rel="stylesheet" href="bootstrap.min.css" />
+<link rel="stylesheet" href="ridgeviewward.css" />
+<link rel="apple-touch-icon" sizes="57x57" href="/icons/apple-icon-57x57.png" />
+<link rel="apple-touch-icon" sizes="60x60" href="/icons/apple-icon-60x60.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="/icons/apple-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="76x76" href="/icons/apple-icon-76x76.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="/icons/apple-icon-114x114.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="/icons/apple-icon-120x120.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="/icons/apple-icon-144x144.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="/icons/apple-icon-152x152.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-icon-180x180.png" />
+<link rel="icon" type="image/png" sizes="192x192" href="/icons/android-icon-192x192.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="96x96" href="/icons/favicon-96x96.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png" />
+<script type="text/javascript" src="main.js?v=10000034"></script>
+<script src="~/js/site.js"></script>
+</head>
+<body>   
+<div class="container">
+</div>
+<div class="meeting mt-2">
+<style>
+body {
+   background-image: url("https://assets.churchofjesuschrist.org/29/80/2980fa992b83004a4dbe5b471d800452c466ea99/church_jesus_christ_lowfidelity_symbol.png");
+        background-position: 50% 4%;
+        background-repeat: no-repeat;
+        background-size: 100px;
+           } 
+</style>
+<div>
+</div>
+</div>
+<div>
+Church Location:
+<a href='https://maps.apple.com/?address=3113%20W%2013400%20S,%20Riverton,%20UT%20%2084065,%20United%20States&ll=40.507208,-111.965768&q=3113%20W%2013400%20S&t=m'>
+ 3113 13400 S, Riverton, UT 84065
+</a>
+</div>
+<div class="mt-2"><a href="#" onclick="javascript:window.location.reload();">Click to refresh browser</a> to
+get the latest content.</div>
+
+<div>
+<div>
+<div class="section-heading">
+<a id="top"><p style="text-align:center"><strong>Ridge View Ward</strong></p>
+  <p style="text-align:center"><strong>Sacrament Program</strong></p>
+</a>
+</div>
+</div>
+
+@{
+    // C# function to get current date
+    string getCurrentDate()
+    {
+        return DateTime.Now.ToString("MMMM d, yyyy");
+    }
+}
+
+<div class="d-flex justify-content-between mt-3">
+    <div class="item"></div>
+    <div class="value">  
+        <div style="text-align: right;">
+            <p>Date: @getCurrentDate()</p>
+            <p>1:30 PM - 2:30 PM</p>
+        </div>
+    </div>
+</div>
+
+<div class="d-flex justify-content-between">
+<div class="item">Presiding:</div>
+<div class="value">Bishop Coello</div>
+
+</div>
+<div class="d-flex justify-content-between">
+<div class="item">Conducting:</div>
+<div class="value">Ryan Van Roosendaal</div>
+
+</div>
+<div class="d-flex justify-content-between">
+<div class="item">Chorister:</div>
+
+<div class="value">Nicole Johnson</div>
+</div>
+<div class="d-flex justify-content-between">
+<div class="item">Pianist/Organist:</div>
+<div class="value">Brooke Crestani</div>
+</div>
+
+</div>
+<div class="d-flex justify-content-between">
+<div class="item">Opening Hymn:</div>
+<div class="value">
+<a class="blue-link" target="_NEW" href="https://site.churchofjesuschrist.org/study/manual/hymns/joy-to-the-world?lang=eng">
+#201 Joy to the World
+</a>
+</div>
+</div>
+<div class="d-flex justify-content-between">
+<div class="item">Invocation:</div>
+<div class="value">By Invitation</div>
+</div>
+<br>
+<div class="d-flex justify-content-between">
+<div class="merged-item">Stake/Ward Business</div>
+</div>
+<div class="mt-3 d-flex justify-content-between">
+<div class="item">Sacrament Hymn:</div>
+<div class="value">
+<a class="blue-link" target="_NEW" href="https://site.churchofjesuschrist.org/study/manual/hymns/in-humility-our-savior?lang=eng?lang=eng">
+#172 In Humility Our Savior
+</a>
+</div>
+</div>
+<br>
+<div class="d-flex justify-content-between">
+<div class="merged-item">Administration of The Sacrament</div>
+</div>
+
+<div class="d-flex justify-content-between">
+<div class="merged-item mt-3 mb-3"><i><strong>Sacrament Program</strong></i></div>
+</div>
+
+<div class="d-flex justify-content-between">
+<div class="merged-item mt-3 mb-3"><i><strong>Testimony Meeting</strong></i></div>
+</div>
+
+<!-- <div class="d-flex justify-content-between">
+<div class="merged-item mt-3 mb-3"><i><strong>Speakers</strong></i></div>
+</div>
+
+<div class="d-flex justify-content-between">
+<div class="item">Speaker:</div>
+<div class="value">Elder Cameron Bachelor</div>
+</div> 
+<br>
+<div class="d-flex justify-content-between">
+<div class="item">Special Musical Number:</div>
+<div class="value">I Heard Him Come by Amelia Stinson
+</div>
+</div> 
+<br>
+<div class="d-flex justify-content-between">
+<div class="item">Concluding Speaker:</div>
+<div class="value">Kent Andersen</div>
+</div> -->
+<br>
+<div class="d-flex justify-content-between">
+    <div class="item">Closing Hymn:</div>
+    <div class="value">
+        <a class="blue-link" target="_NEW" href="https://site.churchofjesuschrist.org/study/manual/hymns/with-wondering-awe?lang=eng">
+            #210 With Wondering Awe
+        </a>
+    </div>
+</div>
+<br>
+<div class="d-flex justify-content-between">
+    <div class="item">Benediction:</div>
+    <div class="value">By Invitation</div>
+</div>
+
+<div class="mt-5">
+<div class="jumbotron">
+<h1 class="display-4">2nd Hour</h1>
+<div class="merged-item">02:40 PM – 03:30 PM</div>
+
+<!-- <div class="second-hour-meeting"><strong>Priesthood - Relief Society - YM/YW</strong></div>
+<div class="room-assignment pl-2">
+<div>Elders Quorum - Chapel Overflow</div>
+<div>Relief Society - Relief Society Room</div>
+<div>Priests Quorum - Bishops Office</div>
+<div>Teachers Quorum - Stage </div>
+<div>Deacons Quorum- Stage </div>
+<div>YW 16-18 - Room 104 </div>
+<div>YW 14-15 - Room 105</div>
+<div>YW 12-13 - Room 106</div> -->
+
+<div class="second-hour-meeting">
+  <strong>Sunday School</strong>
+  <div class="room-assignment pl-2"></div>
+  <div>Gospel Doctrine - Chapel</div>
+  <div>Youth 12-18 - Relief Society Room</div>
+  <div>Course 14-15 - Room 104</div>
+  <div>Course 13 - Room 105</div>
+  <div>Course 12 - Room 106</div>
+</div>
+
+<div class="second-hour-meeting">
+  <strong>Primary</strong>
+  <div class="room-assignment">
+    <div><strong>JUNIOR:</strong></div>
+    <div>- Sunbeams (3yrs old as of 01/23) - Room 110: Poole</div>
+    <div>- CTR 4 (4yrs old as of 01/23) - Room 109: Jackie Van Roosendaal, Shelby Hitesman</div>
+    <div>- CTR 5 (5yrs old as of 01/23) - Room 108: Piiparinen</div>
+    <div>- CTR 6 (6yrs old as of 01/23) - Room 112: Leuluai</div>
+    <br>
+    <div><strong>SENIOR:</strong></div>
+    <div>- CTR 7 (7yrs old as of 01/23) - Room 113: De Hoyos</div>
+    <div>- Valiant 8 (8yrs old as of 01/23) - Room 112: Wright</div>
+    <div>- Valiant 9 (9yrs old as of 01/23) - Room 114: Josh Wakamatsu & Dallin Abbott</div>
+    <div>- Valiant 10 (10yrs old as of 01/23) - Room 117: Cuthbertson</div>
+  </div>
+</div>
+
+<div class="second-hour-meeting">
+  <strong>Nursery:</strong>
+  <div class="room-assignment pl-2">
+    <div>Nursery (18mon+)</div>
+    <div>- Room 115: Ashley Jalagam, Lauren McCulloch, Mitch Stirland, Chris Hitesman</div>
+  </div>
+</div>
+
+<div class="second-hour-meeting">
+  <strong>Schedule:</strong>
+  <div class="room-assignment pl-2">
+    <div>2:35-3:00pm Junior Primary Singing Time/Senior Primary class</div>
+    <div>3:00-3:05pm Switch</div>
+    <div>3:05-3:30pm Junior Primary class/Senior Primary Singing Time</div>
+  </div>
+</div>
+
+<div class="go-to-top">
+<a class="blue-link" href="#top">Go To Top</a>
+</div>
+
+<div>
+<div class="section-heading">
+<a id="announcements"><strong>Announcements and Upcoming Events:</strong></b></a>
+</div>
+</div>
+<div class="announcement">
+<div class="announcement-heading"><strong>First Presidency Christmas Devotional</strong></div>
+<img src="https://drive.google.com/uc?export=view&id=1zSkp59yJtfWB85seKTocOOG8C1F5jfKh" alt="Christmas Devotional" style="max-width:100%; height:auto;"></a>
+<div>
+  <ul>
+    <li>Sunday, December 3rd at 6:00 PM</li>
+    <li><a href='https://newsroom.churchofjesuschrist.org/event/2023-first-presidencys-christmas-devotional'>
+      Christmas Devotional Weblink</a></li>    
+  </ul>
+</div> 
+<!-- <div class="announcement">
+  <div class="announcement-heading"><strong>Ward Party Photos</strong></div>
+  <div>
+    <iframe src="https://drive.google.com/embeddedfolderview?id=1-UyZADrHlGQVlRJb3qnENuNO18fBsgNd#grid" style="width:100%; height:500px; border:0;"></iframe>
+  </div>
+</div> -->
+<div class="announcement">
+<div class="announcement-heading"><strong>Young Men & Young Women</strong></div>
+<div> 
+<ul> 
+  <li><strong>Young Mens Activities</strong> are on Tuesday Nights, Please ask member of Bishopric to be added to GroupMe Chat</li>
+  <li><strong>Young Women's Activities</strong> are on Wednesday Nights, Please ask a member of Young Women's to be added to GroupMe Chat</li>
+  <li><strong>January 14th, 2024</strong>- Standards Night at the stake center at 7pm. Please invite all youth to attend.</li>
+  <li><strong>June 20-22, 2024</strong>- Stake Youth Conference. More details will be coming.</li>
+</ul>
+</div>
+</div>
+<div class="announcement">
+  <div class="announcement-heading"><strong>Tithing Declaration</strong></div>
+  <div>
+    <ul>
+   <li>Please Click Link to Schedule an Appointment</li>
+   <li><a target="_NEW" href="https://calendly.com/coello-humberto23/tithing-declaration">Tithing Declaration</a></li>
+   </ul>
+  </div>
+</div>
+<div class="announcement">
+<div class="announcement-heading"><strong>Ward Choir Practice</strong></div>
+  <div>
+  <ul>
+   <li>We will be holding Ward Choir Practice in the Chapel after Church every Sunday, except for Fast Sunday.</li>
+   </ul>
+  </div>
+</div>
+<div class="announcement">
+<div class="announcement-heading"><strong>Blankets for HOPI Outreach</strong></div>
+  <div>
+  <ul>
+   <li>Over the next couple weeks we will be collecting new or lightly used blankets for families in need on the reservation. 
+     If you’d like to contribute to this cause, feel free to drop off your blankets at the Bishop’s office or home 
+     over the next two weeks.</li> 
+   <li>The last day we will collect will be Thursday November 30th.</li>
+   </ul>
+  </div>
+</div>
+<div class="announcement">
+<div class="announcement-heading"><strong>Ward Christmas Party</strong></div>
+<img src="https://drive.google.com/uc?export=view&id=16r3u-OByLVEY-NZkDSlxpo1KXibsczfC" alt="Ward Christmas Party" style="max-width:100%; height:auto;"></a>
+<div>
+  <ul>
+    <li>Friday, December 8th at 6:00 PM</li>
+    <li><a href='https://maps.apple.com/?address=3113%20W%2013400%20S,%20Riverton,%20UT%20%2084065,%20United%20States&ll=40.507208,-111.965768&q=3113%20W%2013400%20S&t=m'>
+      Ridge View Meetinghouse Location</a></li>
+    <li>Dinner will be Provided</li>
+  </ul>
+</div>
+<div class="announcement">
+<div class="announcement-heading"><strong>Mountain Ridge Stake Choir Christmas Celebration</strong></div>
+  <div>
+  <ul>
+   <li>Date and Time: Sunday, December 17th at 7:00 PM</li> 
+   <li><a href='https://maps.apple.com/place?q=14068%20Rosecrest%20Rd&ll=40.495696%2C-112.025053&address=14068%20Rosecrest%20Rd%2C%20Herriman%2C%20UT%20%2084096%2C%20United%20States'>
+      Mountain Ridge Stake Center Location</a></li>
+   <li>All are warmly invited to join us for this delightful Christmas musical fireside, where we will come together to celebrate the birth of Jesus.</li>
+   <li>Our ward choir and primary children have been invited to perform Christmas songs during this event.</li>
+   </ul>
+  </div>
+</div>
+<div class="announcement">
+<div class="announcement-heading"><strong>Stake Mission Prep</strong></div>
+<div>
+  - Stake Mission Prep class begins October 15th, and will be held <strong>every Sunday 4 to 5 PM</strong> at <i>Stake Office Building</i>,
+The Stake office is in <strong>South Hills Middle School Seminary Building</strong>. <a target="_NEW" href="https://maps.apple.com/?address=13558%20S%204000%20W,%20Riverton,%20UT%20%2084065,%20United%20States&ll=40.504828,-111.986765&q=13558%20S%204000%20W&t=m">13558
+S 4000 W, Riverton, UT 84065</a>
+Everyone 16+ in age is welcome.
+ "The Gathering of Israel is the most important work taking place on earth today" President Russell M. Nelson
+.
+</div>
+</div>
+
+<div class="announcement">
+<div class="announcement-heading"><strong>Protecting Children and Youth (Training)</strong></div>
+<div>
+  - All leaders and teachers of children or youth are to complete this training within one month of being
+called. <a target="_NEW" href="https://www.churchofjesuschrist.org/callings/church-safety-and-health/protecting-children-and-youth?lang=eng">Click
+here</a> to start your training.
+</div>
+<div>
+  - This training is for anyone called to work with children or youth. This includes:
+<ul>
+<li>Bishoprics</li>
+<li>Primary, Young Women, Sunday School, Relief Society presidencies, and Elders Quorum presidencies
+</li>
+<li>Secretaries, teachers, advisers, specialists, camp leaders, activity day leaders, music leaders,
+pianists, and others serving in positions in the Primary, Young Women, and Aaronic Priest Quorum
+organizations</li>
+<li>Teachers of youth Sunday School and seminary classes</li>
+</ul>
+</div>
+</div>
+
+<div class="announcement mt-3">
+<div class="announcement-heading"><strong>Come, Follow Me</strong></div>
+<h2><b>December</b></h2>
+<div>
+<strong>Nov. 27-Dec. 3</strong>
+<a target="_NEW" href="https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-individuals-and-families-new-testament-2023/49?lang=eng">
+1–3 John; Jude “God Is Love”
+</a>
+</div>
+<div>
+<strong>December 4-10</strong>
+<a target="_NEW" href="https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-individuals-and-families-new-testament-2023/50?lang=eng">
+Revelation 1–5 “Glory, and Power, Be unto … the Lamb for Ever”
+</a>
+</div>
+<div>
+<strong>December 11-17</strong>
+<a target="_NEW" href="https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-individuals-and-families-new-testament-2023/51?lang=eng">
+Revelation 6–14 “They Overcame … by the Blood of the Lamb”
+</a>
+</div>
+<div>
+<strong>December 18-24</strong>
+<a target="_NEW" href="https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-individuals-and-families-new-testament-2023/52?lang=eng">
+Christmas “Good Tidings of Great Joy”
+</a>
+</div>
+<div>
+<strong>December 25-31</strong>
+<a target="_NEW" href="https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-individuals-and-families-new-testament-2023/53?lang=eng">
+Revelation 15–22 “He That Overcometh Shall Inherit All Things”
+</a>
+</div>
+</div>
+<div class="go-to-top">
+<a class="blue-link" href="#top">Go To Top</a>
+</div>
+
+<div class="section-heading"><strong>Missionaries serving from our ward:</strong><br></div>
+<div class="announcement">
+<div><strong>Elder TJ Fisher</strong> - Mexico Torreon Mission, August 2023 - August 2025</div>
+<a href="mailto:thomas.fisher@missionary.org">Click to Email Elder Fisher</a>
+</div>
+<div class="announcement">
+<div><strong>Elder Elijah Lloyd</strong> - Texas Dallas East Mission, September 2022 - September 2024</div>
+</div>
+<div class="announcement">
+<div><strong>Elder Cameron Bachelor</strong> - Concepcion Chile Mission, November 2023 - November 2025</div>
+</div>
+<div class="announcement">
+<div><strong>Brother and Sister West</strong> - Utah Area Service Missionaries</div>
+</div>
+
+<div class="section-heading"><strong>Ward Leadership Directory</strong></div>
+<table class="table table-striped">
+<tbody>
+<tr>
+<td>Bishop</td>
+<td>Humberto Coello</td>
+<td><a href="tel:801-604-1207">801-604-1207</a></td>
+</tr>
+<tr>
+<td>1st Counselor</td>
+<td>Jacob Auna</td>
+<td><a href="tel:916-842-4803">916-842-4803</a></td>
+</tr>
+<tr>
+<td>2nd Counselor</td>
+<td>Ryan Van Roosendaal</td>
+<td><a href="tel:801-573-1625">801-573-1625</a></td>
+</tr>
+<tr>
+<td>Executive Secretary</td>
+<td>Steven McGiven</td>
+<td><a href="tel:801-664-1446">801-664-1446</a></td>
+</tr>
+<tr>
+<td>Membership Clerk</td>
+<td>Jared Day</td>
+<td><a href="tel:801-946-1205">801-946-1205</a></td>
+</tr>
+<tr>
+<td>Relief Society President</td>
+<td>Janet Christensen</td>
+<td><a href="tel:801-755-9094">801-755-9094</a></td>
+</tr>
+<tr>
+<td>Primary President</td>
+<td>Ashley Forbes</td>
+<td><a href="tel:801-347-8452">801-347-8452</a></td>
+</tr>
+<tr>
+<td>Young Women President</td>
+<td>Brooke Cude</td>
+<td><a href="tel:801-592-5659">801-592-5659</a></td>
+</tr>
+<tr>
+<td>EQ President</td>
+<td>Alec Crestani</td>
+<td><a href="tel:801-232-1085">801-232-1085</a></td>
+</tr>
+<tr>
+<td>Sunday School President</td>
+<td>Austin McCulloch</td>
+<td><a href="tel:801-244-3684">801-244-3684</a></td>
+</tr>
+<tr>
+<td>Full Time Missionaries</td>
+<td>In our Stake</td>
+<td><a href="tel:385-302-1509">385-302-1509</a></td>
+</tr>
+</tbody>
+</table>
+<div class="mt-2 bullet-point">
+* For <strong>appointments</strong> with a member of the bishopric, please contact <strong>Steven
+McGiven</strong>, Executive Secretary at <a href="tel:801-664-1446">801-664-1446</a>
+</div>
+<div class="mt-2 bullet-point">
+* <strong>New Ward Members</strong>: If you are new to our ward, please come to the Clerks’ Office (South
+East side of the building) right after the sacrament meeting to move your membership records or click to email <a href="mailto:jared.o.day@gmail.com">Jared Day</a> with
+the following information: Name, Birth Date, Record Number (if available), Address, Email Address, Phone Number, and Family
+Member Names
+</div>
+<div class="mt-2 bullet-point">
+* Ridge View Ward church building is located at
+<strong><a target="_NEW" href="https://maps.apple.com/?address=3113%20W%2013400%20S,%20Riverton,%20UT%20%2084065,%20United%20States&ll=40.507208,-111.965768&q=3113%20W%2013400%20S&t=m">3113 13400 S, Riverton, UT 84065.</a></strong>
+</div>
+<div class="mt-2 bullet-point">
+* <strong>Mountain Ridge Stake Temple Recommend Renewal</strong>
+To renew your Temple Recommend with a member of the Stake Presdiency, please visit
+<a target="_NEW" href="https://calendly.com/humrstake/recommend-renewal">https://calendly.com/humrstake/recommend-renewal</a>
+The Stake office is in <strong>South Hills Middle School Seminary Building</strong>. <a target="_NEW" href="https://maps.apple.com/?address=13558%20S%204000%20W,%20Riverton,%20UT%20%2084065,%20United%20States&ll=40.504828,-111.986765&q=13558%20S%204000%20W&t=m">13558
+S 4000 W, Riverton, UT 84065</a>
+</div>
+<div class="go-to-top mt-5">
+<a class="blue-link" href="#top">Go To Top</a>
+</div>
+</div>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>
